@@ -30,7 +30,8 @@ go v1.22.12
 swag v1.16.4
 ```
 
-Versions are listed for the reference only. But we appreciate if your environment will have versions no lower than ours.
+Versions are listed for the reference only.  
+But we appreciate if your environment will have versions no lower than ours.
 
 ### Installation
 
@@ -54,9 +55,9 @@ Now you're ready to browse the app at the location specified in the `APP_URL` va
 
 ## Testing
 
-Run `make up-dev` if you haven't been run it yet to start a database
-Run `make run` to start the app
-Run `make test` to start testing
+* Run `make up-dev` if you haven't been run it yet to start a database
+* Run `make run` to start the app
+* Run `make test` to start testing
 
 ### Break Down Tests
 
