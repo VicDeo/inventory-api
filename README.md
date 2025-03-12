@@ -1,11 +1,11 @@
 # Project Title
 
-Inventory Management system.
+Inventory Management system.  
 Written as a "API Development and Documentation using Go" course project.
 
 ## Getting Started
 
-This application is designed to manage inventory via RESTful API.
+This application is designed to manage inventory via RESTful API.  
 It supports the following endpoints:
 * `GET /inventory/{id}` - Get a single item by id
 * `GET /inventory/` - Get all items
@@ -14,7 +14,7 @@ It supports the following endpoints:
 * `PUT /inventory/{id}` - Update all item properties by id
 * `DELETE /inventory/{id}` - Delete item by id
 
-For more detailed build-in documentation on API start the app and browse to `/swagger/index.html`.
+For more detailed built-in documentation start the app and visit `/swagger/index.html` in your browser.
 
 The app has a built-in rate limiting using the Token Bucket algorithm.
 Number of requests per second is configurable via `APP_RPS_LIMIT` env variable.
@@ -73,4 +73,4 @@ Just imagine we have examples here
 
 ## License
 
-MIT. Take it, Like it, Share it, Break it. 
+MIT. Take it, Like it, Share it, Break it.
